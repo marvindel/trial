@@ -30,7 +30,7 @@ margin:0 20px
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
-  color: lightblue;
+  color: blue;
 }
 button{
   width: 200px;
@@ -39,7 +39,7 @@ button{
   margin: 20px 15px;
   border-radius: 40px;
   font-weight: bold;
-  border: 3px solid teal;
+  border: 3px solid black;
   background: transparent;
   color: white;
   cursor: pointer;
@@ -49,21 +49,20 @@ button{
 }
 
 span{
-  background: purple;
+  background: red;
   height: 100%;
   width: 100%;
   position: absolute;
   left: 0;
   bottom: 0;
   z-index: -1;
-}
 
+}
 .navbar ul li:hover{
   color: yellow;
 }
-
   .bannersection{
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(limegreen,black);
+  background-image: linear-gradient(orange,lightblue,lightgreen,red);
 }
